@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Saabiq Saha Website  | Home :: w3layouts</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<!-- web-font -->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<!-- web-font -->
+		<!-- js -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- js -->
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- start-smoth-scrolling -->
+	</head>
+	<body>
+		<!-- header -->
+		<div id="home" class="header-bg">
+			<div class="header-layer">
+				<div class="header-top">
+					<!-- container -->
+					<div class="container">
+						<div class="head-logo">
+							<a href="#"><img src="images/lo.png" alt="" /></a>
+						</div>
+						<div class="top-nav">
+							<div class="nav-icon">
+								<a href="#" class="right_bt" id="activator"><span> </span> </a>
+							</div>
+							 <div class="box" id="box" style="top: -1000px;">
+								 <div class="box_content">        					                         
+									<div class="box_content_center">
+										<div class="form_content">
+											<div class="menu_box_list">
+												<ul>
+													<li><a href="#home" class="scroll"><span>home</span></a></li>
+													<li><a href="#services" class="scroll"><span>about</span></a></li>
+													<li><a href="#stories" class="scroll"><span>stories</span></a></li>
+													<li><a href="#gallery" class="scroll"><span>gallery</span></a></li>
+													<li><a href="#contact" class="scroll"><span>contact</span></a></li>
+												</ul>
+											</div>
+											<a class="boxclose" id="boxclose"> <span> </span></a>
+										</div>                                  
+									</div> 	
+								</div>  	  
+							</div>
+							<!-- start-click-drop-down-menu -->
+							<!-- start-dropdown -->
+							 <script type="text/javascript">
+								var $ = jQuery.noConflict();
+									$(function() {
+										$('#activator').click(function(){
+											$('#box').animate({'top':'0px'},900);
+										});
+										$('#boxclose').click(function(){
+										$('#box').animate({'top':'-1000px'},900);
+										});
+									});
+									$(document).ready(function(){
+									//Hide (Collapse) the toggle containers on load
+									$(".toggle_container").hide(); 
+									//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+									$(".trigger").click(function(){
+										$(this).toggleClass("active").next().slideToggle("500");
+											return false; //Prevent the browser jump to the link anchor
+									});
+														
+								});
+							</script>
+							<!-- //End-click-drop-down-menu -->
+							<!-- top-nav -->
+						</div>
+						<div class="clearfix"> </div>
+						<div class="head-info">
+							<h1>TISSEC</h1>
+							<p> Welcome to the Official website of TISSEC.
+								 Enjoy this beta version.
+							</p>
+							<div class="botton">
+								<a href="#">Enroll now</a>
+							</div>
+						</div>
+					</div>
+					<!-- //container -->
+				</div>
+			</div>
+		</div>
+		<!-- //header -->
+		<!-- service -->
+		<div id="services" class="service">
+			<!-- container -->
+			<div class="container">
+				<div class="service-grids">
+					<div class="col-md-4 service-grid service-left">
+						<div class="creative"> </div>
+						<h3>Mission and Vision Statement</h3>
+						<p>At Tamale Islamic Science Senior High School, we strive to provide a nurturing and inclusive 
+							learning environment, empowering students with knowledge, skills, and values to become responsible global citizens committed to serving humanity
+						</p>
+					</div>
+					<div class="col-md-4 service-grid service-middle">
+						<div class="skills"> </div>
+						<h3>History and Background</h3>
+						<p>Tamale Islamic Science Senior High School, established in 1992, has a rich history as 
+							a prominent educational institution in Ghana. Founded with the goal of blending Islamic principles
+							 with modern education, the school has since become a beacon of academic excellence, 
+							moral values, and community service. Over the years, it has nurtured generations of students, 
+							empowering them to make meaningful contributions to society while upholding the motto
+							 of "Supplication to God and Service to Humanity.
+						</p>
+					</div>
+					<div class="col-md-4 service-grid service-right">
+						<div class="help"> </div>
+						<h3>Profile of the School</h3>
+						<p>Tamale Islamic Science Senior High School, established in 1992, is a distinguished educational institution in Ghana, dedicated to blending
+							 Islamic values with modern education. With a focus on academic excellence and moral integrity, we offer a diverse range of programs and 
+							 extracurricular activities that foster holistic development. Our committed faculty prepares students to become compassionate leaders,
+							  contributing positively to society and serving humanity.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //service -->
+		<!-- stories -->
+		<div id="stories" class="stories">
+			<!-- container -->
+			<div class="container">
+				<div class="stories-info">
+					<h2>Success Stories</h2>
+					<p>TISSEC has an interesting story</p>
+				</div>
+				<div class="stories-grids">
+					<div class="stories-grid-left">
+						<img src="images/5.jpg" alt="" />
+					</div>
+					<div class="stories-grid-right">
+						<div class="cross"> </div>
+						<h3>AES encryption Project</h3>
+						<p>AES (Advanced Encryption Standard) is a widely used symmetric encryption algorithm designed to secure
+							 sensitive data during transmission and storage. It employs a block cipher structure, meaning it encrypts
+							  data in fixed-size blocks. AES uses a key of varying lengths (128, 192, or 256 bits) to perform encryption 
+							
+						</p>
+						<div class="botton Project">
+							<a href="#">View Project</a>
+						</div>
+					
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- photography -->
+				<div id="gallery" class="photography">
+					
+						<div class="photography-images">	
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="images/naji.jpg" />
+								<div class="caption">
+									<span> </span>
+								</div>
+							</a>
+						</div>
+						<div class="photography-images middle">
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="images/zonal2.jpg" />
+								<div class="caption">
+									<span> </span>
+								</div>
+							</a>
+						</div>
+						<div class="photography-images">
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="images/laugh.jpg" />
+								<div class="caption">
+									<span> </span>
+								</div>
+							</a>
+						</div>
+						<div class="photography-images">
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="images/danaba.jpg" />
+								<div class="caption">
+									<span> </span>
+								</div>
+							</a>
+						</div>
+						<div class="photography-images middle">
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="images/SAHA.jpg" />
+								<div class="caption">
+									<span> </span>
+								</div>
+							</a>
+						</div>
+						<div class="photography-images">
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="images/loo.png" />
+								<div class="caption">
+									<span> </span>
+								</div>
+							</a>
+						</div>
+						<div class="clearfix"> </div>
+						
+					<!---- Script for gallery Here --->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+						<script type="text/javascript">
+						$(function () {
+							
+							var filterList = {
+							
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								
+								hoverEffect: function () {
+								
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							
+							// Run the show!
+							filterList.init();
+							
+							
+						});	
+						</script>
+						<!--- Gallery Script Ends --->
+						<!-- pop-up-box -->
+						<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+						<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+						<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+						<!-- //pop-up-box -->
+						<div id="small-dialog" class="mfp-hide">
+							<div class="image-top">
+								<img src="images/SAHA.jpg" alt="" />
+								<p>MOHAMMED SAABIQ SAHA CREATED THIS SITE. Tenacious brat wanting to be ans AES encryption expert in future </p>
+							</div>
+						</div>
+						<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>	
+				<!-- Work Ends Here -->
+				</div>
+				<!-- //photography -->
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //stories -->
+		<!-- contact -->
+		<div id="contact" class="contact">
+			<!-- container -->
+			<div class="container">
+				<div class="contact-info">
+					<h2>Get In Touch</h2>
+					<p>Our location on the map</p>
+				</div>
+				<div class="map">
+					<iframe src="https://goo.gl/maps/j2WucUF1sNbj5uR16"></iframe>
+					<div class="location">
+						<div class="find">
+							<p>We Are Here</p>
+							<div class="arrow"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-bottom">
+					<div class="col-md-8 bottom-left">
+						<form>
+							<input type="text" placeholder="Your Name" required="">
+							<input type="text" class="mail" placeholder="Your Mail" required="">
+							<input type="text" class="subject" placeholder="Subject" required="">
+							<textarea placeholder="Type Massage Here..." required=""></textarea>
+							<input type="submit" value="SEND">
+						</form>
+					</div>
+					<div class="col-md-4">
+						<div class="bottom-right">
+							<h3>Our Address</h3>
+							<p>KANVILI, SAGNERIGU, TAMALE
+								<span>Nt-0142-256</span>
+								Ghana
+							</p>
+							<h3>Email</h3>
+							<p><a href="mailto:saabiqsaha@gmail.com">islamicseniorhigh@gmail.com</a></p>
+							<h3>Phone</h3>
+							<p>0200885833</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //contact -->
+		<!-- footer -->
+		<div class="footer">
+			<!-- container -->
+			<div class="container">
+				<div class="footer-left">
+					<p>DEVELOPED by <a href="http://sahastudios.com/">SAHA STUDIOS <br> Cont: 0200885833</br></a></p>
+				</div>
+				<div class="footer-right">
+					<ul>
+						<li><a href="SAABIQ SAHA FACEBOOK" class="facebook"> </a></li>
+						<li><a href="SAABIQ SAHA TWITTER" class="twitter"> </a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		<!-- //container -->
+		</div>
+		<!-- //footer -->
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- content-Get-in-touch -->
+	</body>
+</html>
